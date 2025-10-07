@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>IEC MCP App Hub</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #ffecd2 0%, #fcb69f 50%, #a1c4fd 100%);
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  button {
+    gap: 10px;
+    padding: 14px 26px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #fc6076 0%, #ff9a44 100%);
+    color: #fff;
+    transition: transform 0.2s, box-shadow 0.3s, background 0.3s;
+    box-shadow: 0 4px 14px rgba(76, 90, 255, 0.18);
+    cursor: pointer;
+    outline: none;
+    align-items: left;
+  }
+  button:hover {
+    background: linear-gradient(90deg, #7a8ff7 0%, #91eac9 100%);
+    color: #222;
+    transform: scale(1.07) rotate(0 deg);
+    box-shadow: 0 0 0 rgba(72, 228, 210, 0.22);
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px #fc6076;
+    border: 2px solid #fff;
+    object-fit: cover;
+    background: #fff;
+  }
+  h1 {
+    text-align: center;
+    color: #4f2c6d;
+    margin: 32px 0 24px 0;
+    font-size: 2.7rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px #ececec;
+  }
+</style>
+
+</head>
+<body>
+<h1> IEC MCP App Hub</h1>
+<br>
+<div class="button-container"> </div> 
+  <button onclick="window.open('https://app.bom.com/user-prefs/detail-profile-edit?password_expired_p=1&', '_blank')">
+    <img src="Arena.jpg" class="icon" alt="icon5" /> Arena
+  </button><span>Product Drawings & Documents </span> <br>
+  <button onclick="window.open('https://ess.hgsbs.com/', '_blank')">
+    <img src="HGS.jpg" class="icon" alt="icon6" /> HGS
+  </button><span> Paylsips, Fom16, Form12BA </span></br>
+  <button onclick="window.open('https://iconnect.thermofisher.com/iconnect', '_blank')">
+    <img src="Iconnect.jpg" class="icon" alt="icon9" /> iConnect
+  </button><span>Thermofisher Connect, Workday, COUPA,etc... </span></br>
+  <button onclick="window.open('https://apps.powerapps.com/play/e/default-b67d722d-aa8a-4777-a169-ebeb7a6a3b67/a/d0cf2cf6-7d33-4a16-bee6-0c621ced64df?tenantId=b67d722d-aa8a-4777-a169-   ebeb7a6a3b67&source=portal', '_blank')">
+    <img src="PowerApps.jpg" class="icon" alt="icon2" /> IEC Lab Management Tracker
+  </button> <span> IEC Lab Assets List, Tracker </span></br>
+  <button onclick="window.open('https://apps.powerapps.com/play/e/default-b67d722d-aa8a-4777-a169-ebeb7a6a3b67/a/282be3e6-3490-45dc-b02e-3674b3052ae6?tenantId=b67d722d-aa8a-4777-a169-ebeb7a6a3b67&source=teamsLinkUnfurling', '_blank')">
+    <img src="PowerApps.jpg" class="icon" alt="icon3" /> IEC RA Project Tracker
+  </button> <span> IEC Regulatory affairs Project creation and slot booking tracker </span> </br>
+  <button onclick="window.open('https://apps.powerapps.com/play/e/default-b67d722d-aa8a-4777-a169-ebeb7a6a3b67/a/0f6d6aeb-4dd7-4124-98e3-1fb920f54558?tenantId=b67d722d-aa8a-4777-a169-ebeb7a6a3b67', '_blank')">
+    <img src="PowerApps.jpg" class="icon" alt="icon7" /> IEC Procurement Process
+  </button> <span> IEC Procurement tool </span> </br>
+  <button onclick="window.open('https://apps.powerapps.com/play/e/default-b67d722d-aa8a-4777-a169-ebeb7a6a3b67/a/6cb652f9-2434-44f2-abd8-4b891421d9c4?tenantId=b67d722d-aa8a-4777-a169-ebeb7a6a3b67', '_blank')">
+    <img src="PowerApps.jpg" class="icon" alt="icon8" /> IEC Shared Services
+  </button> <span> IEC Shared Services_Import_Export </span> </br>
+  <button onclick="window.open('http://labsys2018.amer.thermo.com:82/', '_blank')">
+    <img src="Labsys.jpg" class="icon" alt="icon1" /> Labsys
+  </button> <span> TCO Submission and tracking for AVL tetsing </span> </br>
+  <button onclick="window.open('http://awsu1-10wotw03p:8080/octane/home', '_blank')">
+    <img src="Octane.jpg" class="icon" alt="icon4" /> Octane
+  </button> <span> EC Tracker for DCOs at AVL </span> </br>
+  <button onclick="window.open('https://thermofisher.sharepoint.com/sites/collaboration/TechnicalPulsing/Pages/default.aspx?OR=Teams-HL&CT=1709296306207&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yNDAyMDExOTMwMyIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D', '_blank')"></div>
+    <img src="Pulsing.jpg" class="icon" alt="icon10" /> Techincal, Refrigeration & Electrical Plusing
+  </button> <span>Techincal, Refrigeration and EE pusling slots booking & Teams meeting link </span> </br>
+  <button onclick="window.open('https://knowledge1.thermofisher.com/Special:AuthenticationProviders?returntotitle=Lab_Equipment%2FCold_Storage_Systems%2FCold_Storage_Software%2FULT_Freezer_Software%2FPEEK_Service_Screen_Password', '_blank')"></div>
+    <img src="PEEK_Service.jpg" class="icon" alt="icon11" /> PEEK Service screen Password
+  </button> <span> PEEk Service screen passowrd for ULTs </span> </br>
+ <button onclick="window.open('https://performancemanager5.successfactors.eu/sf/start?_s.crb=OUp%252fVyMYRZDwsfTu%252f1c20gCJNc3KQHhfZKDWxlNN00A%253d#/login', '_blank')"></div>
+    <img src="SuccessFactors.jpg" class="icon" alt="icon12" /> SuccessFactors_Learning
+  </button> <span>Success factors Learning site </span> </br>
+ <button onclick="window.open('https://thermofisher.sharepoint.com/sites/CTTIECVandVForum/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FCTTIECVandVForum%2FShared%20Documents%2FV%20and%20V%20artifacts%2FULT%2FTSX%2F40%2E29%2FBuilds&p=true&ct=1711441898278&or=Teams%2DHL&ga=1', '_blank')"></div>
+    <img src="Pulsing.jpg" class="icon" alt="icon13" /> LPD CTT IEC V and V Forum 
+  </button> <span> LPD CTT IEC V&V Forum for latest & Test firmwares access </span> </br>
+  <button onclick="window.open('https://thermofisher.sharepoint.com/sites/collaboration2/POECRB/Pages/Meetings.aspx?&OR=Teams-HL&CT=1712831448687&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDAzMTQxNDcxNCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D', '_blank')"></div>
+    <img src="Pulsing.jpg" class="icon" alt="icon14" /> POE CRB Meeting
+  </button> <span>POE CRB Meeting for phase gate closure approvals </span> </br>
+  <button onclick="window.open('https://thermofisher.sharepoint.com/sites/IECQualityManagementSystem/Procedures/Forms/AllItems.aspx', '_blank')"></div>
+    <img src="PowerApps.jpg" class="icon" alt="icon15" /> IEC QMS
+  </button> <span> IEC Documents templates, SOPs, WI, etc... </span> </br>
+  <button onclick="window.open('https://thermofisher.sharepoint.com/sites/IEC_HYD_Twiza_EE_lab/SitePages/Soldering_Technician.aspx', '_blank')"></div>
+    <img src="Pulsing.jpg" class="icon" alt="icon16" /> Soldering Technician
+  </button> <span> IEC Soldering technician work slot booking </span> </br>
+  <button onclick="window.open('https://apps.powerapps.com/play/e/default-b67d722d-aa8a-4777-a169-ebeb7a6a3b67/a/4e3477c0-7d74-4a2f-aaa8-22ec0110fea4?tenantId=b67d722d-aa8a-4777-a169-ebeb7a6a3b67&hint=c4ec6bb2-26b2-4bca-af9a-87ddfb3170a4&sourcetime=1739790385174', '_blank')"></div>
+    <img src="PowerApps.jpg" class="icon" alt="icon17" /> IEC App Hub
+  </button> <span> IEC Apps Hub </span> </br>
+  <button onclick="window.open('https://nps.kfintech.com/', '_blank')"></div>
+    <img src="NPS JFINTECH.jpg" class="icon" alt="icon16" /> NPS KFINTECH
+  </button> <span> NPS KFINTECH access </span> </br>
+  <button onclick="window.open('https://egbp.login.us6.oraclecloud.com/oam/server/obrareq.cgi?encquery%3Dau9geFhPcb6DTQQvwZAZlgS1zerk%2BKHzJTiyB9GGa1nrbw9hECuzaPCQBLEs1cTPbJpNujuet2KrkFq0GcDTFoyCulqgCMMgCyt5aHaBSygeMToMC1w9tPBmI8TUIIJMMaRrfo6PcUCWLN0dD8UxAiGrGNm676tc2QZnDziAm1slNGm2jd8aM3PuNivOvX%2Bu%2Fv2V7E7gsBy48UbKStvJjVS9oA04wGKgxhVbHeqk%2F1U6Iw1Mlli5XlP6axN1jPum1im%2FYPJwbkXA2mtjwUxl1eL81yw5NibOkueF35Sg2NkSlbD8yCCQWOmyZXpCzzrF1N0XYsszyWxGwk39TOt6j1VSa6m%2BiMZ346j6%2FcFtdt3%2FRhUh7Yd4tWcIy4GR6HidfASJQ7TElQnj47LzVuJSh7CGuT5AYdcxSqId8%2FHEVGKaYGDi0zrj0JV7pflOhZe%2FlDz%2B%2B4oZB9n6FqoHS4LcZ5O1xwxHQdcjR8JBaeIWfwqCIqWBSRML6XqfqCJNt9ow0Ski0XaZ75JLq%2BZDAe8iO5wwxR2mXdXKn5vdby7ssXLrw2ggcnD%2B5Zd79U6IanQibSCNW1vtFkk0n5fySDvSowKez7Os87I%2Bn6WJZ79OgvtPfTrpDZ3QC%2B7JfsCoec%2BAC39m4IyuybBkUPqVvhxfZHKixcoKXaVgnMSJL25ONvJNEBNVYoH%2BGh%2FaXztdR3OBpISi3mSn7M9YPe9LQUkd2L1M5w8fczTKVnN3CdemolTZVNhPtwftQggAqkE19Yw7NApQMVWDiibDphR3WAgnGMRvEEug2dXSuxS%2FqyROJ0%2FhZ0dkpx1eyl5tpMgkWHPlSMaaCkSpw%2Fif%2F4NjBVYpQmQkEmdy18VDIxvlFv8PTCpWweLdvnIrkmfNy45ac23T%2FU%2B3qbNduZJvjbeoDH0l%2FGg0T50lBtcNJ%2FEQ5gxAZ6sqIQxLIJxseaFS%2B7G3CvC2a8wt3hYjuwYKY7NKnj%2Fx%2F4e2iPDi6rJmd3t2hWfSd7fyZuxAAERpFlkz6jLQfm2uieDiyJ9H7Yw1cV0cCXqEUieyhmvu4OQqbVGJRj8GJxRfFdYOQpnMJxjmEdSlvWRiLZWlKZUFdEtdeohy4PTWn2evUfFHbmgnb5AlsaUyppgpto3zGXf%2F%2BdffnuRoUTRPcU3S6hBGHc33y5TOGkHzsrXHLHIyAMuYCeYOChv3E8rwDbmktk2XAzqefM0XFlK2VllMiGynRmI6O%2B2CYRfZKt8tiYAzowe2t57y4fe8LLZmtNsTTrarEoRWTjY4WncWP9qw4fp6tQVRTr573lDluE0RhvGF22hDvQoqB5aIQ%2BpNbS41EHmnPoTrg10MRcc5R4ao4iZ7N8bypGnKSecsnvGsc69dUHrEVgALk0xcU%2BraZaM3nIWDObtSkztpcmTw0jhgLLE2REEw2agEri6nmupMqnphRRnCN8OD%2BHr9UXhJPAAAHfjIY2PajcP7vEEpaH2AuTHo84gjDmWhPWUOFUDOSaTGoTY%2FGY8i9zNIeaQ%2FMSrHXZiQb8gvJOV8aN%2B35NmxW%2FhVnK6lvSDYhHNUnUvuxEXGXwrJb726et%2BgDoGUAVDpR9DYV3qHNhQPZW%2FA%2BjASL91m%2FasyWmLn5%2F1cmKnD04DR6HUQTv3ZMN4S3nR7zDuVorHFUMfzZbJWahvn4%2Fm4YE%2BhQenzBatuuPArzQ%3D%3D%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3Dbeefe57c72a474955215cf85f0c82959525d3945&ECID-Context=1.006FShnIZ%5EnBDCsqwg7i6G008bP90001Ee%3BkXjE', '_blank')"></div>
+    <img src="OCPLM.jpg" class="icon" alt="icon17" /> OCPLM
+  </button> <span> Global documents Templates in Oracle cloud PLM </span> </br>
+  <button onclick="window.open('http://10.122.16.231/Default.aspx', '_blank')"></div>
+    <img src="JTMS.jpg" class="icon" alt="icon18" /> JTMS
+  </button> <span>JTMS for timesheets submission weekly </span> </br>
+  <button onclick="window.open('https://geneai.thermofisher.com/ask-gene', '_blank')"></div>
+    <img src="Gene_AI.jpg" class="icon" alt="icon19" /> Gene.AI
+  </button> <span> Thermofishaer AI Support </span> </br>
+  <button onclick="window.open('https://app.reverscore.net/teams/63e7aac7e0fd435aac615fe0', '_blank')"></div>
+    <img src="Rever.jpg" class="icon" alt="icon20" /> Rever
+  </button> <span> JDI, PPI submission tool </span> </br>
+  <button onclick="window.open('http://10.96.29.93/login', '_blank')"></div>
+    <img src="ATOM.jpg" class="icon" alt="icon21" /> ATOM
+  </button> <span> Alternates part finding tool </span> </br>
+  <button onclick="window.open('https://connectandheal.com/', '_blank')"></div>
+    <img src="CNH.jpg" class="icon" alt="icon22" /> Connect & Heal
+  </button> <span> Connect & Heal Health & doctor consultation tool </span> </br>
+  <button onclick="window.open('file://usashnetapcnas1.thermo.com/MFG_Plant_Operations/SOE%20Instruction%20Sheets/ULT%20Line/', '_blank')"></div>
+    <img src="ULT_SOEs.jpg" class="icon" alt="icon23" /> ULT Line SOEs
+  </button> <span>ULT SOEs </span> </br>
+  <button style="background-color: blue; color: Gray;" onclick="window.open('\\usashnetapcnas1.thermo.com\Eng_Engineering\EngineeringChanges\Part&Project#'s\Project Number Log 2023.xls', '_blank')"></div>
+    <img src="Pulsing.jpg" class="icon" alt="icon24" /> Project Number_Log
+  </button> <span> Copy and Enter this path in run command window "\\usashnetapcnas1.thermo.com\Eng_Engineering\EngineeringChanges\Part&Project#'s\Project Number Log 2023.xls" </br>
+  <button onclick="window.open('https://thermofisher.sharepoint.com/:f:/r/sites/MCP_DirectTeam/Shared%20Documents/General/MCP%20Projects/Asheville/10-AVL%20Site%20reports/020%20Delta%20P_APAT%20reports?csf=1&web=1&e=Kufacc', '_blank')"></div>
+    <img src="Pulsing.jpg" class="icon" alt="icon25" /> APAT Reports
+  </button> <span>APAT Reports folder </span> </br>
+  <button style="background-color: blue; color: Gray;" onclick="window.open('\\usashnetapcnas1.thermo.com\Eng_Engineering\EngineeringDrawings\Newington', '_blank')"></div>
+    <img src="Pulsing.jpg" class="icon" alt="icon26" /> Engineering Drawings_Newington
+  </button> <span> Copy and Enter this path in Run command window "\\usashnetapcnas1.thermo.com\Eng_Engineering\EngineeringDrawings\Newington" </span> </br>
+  <button style="background-color: blue; color: Gray;" onclick="window.open('\\oncloud-prod-n1\usash_engineering_cloud\DEProjects\Active', '_blank')"></div>
+    <img src="Pulsing.jpg" class="icon" alt="icon27" /> DE Projects Active
+  </button> <span> Copy and Enter this path in Run command window "\\oncloud-prod-n1\usash_engineering_cloud\DEProjects\Active" </span></br>
+  <button onclick="window.open('https://app.powerbi.com/groups/me/apps/81218ca8-3253-446e-ba7c-cbe973da2dcb/reports/1790fdb1-69e6-4d6d-b012-f48766724e5f/ReportSectione7f38d551a03888b73c0?ctid=b67d722d-aa8a-4777-a169-ebeb7a6a3b67&experience=power-bi', '_blank')"></div>
+    <img src="Pulsing.jpg" class="icon" alt="icon28" /> Forecast_All Products
+  </button> <span>Forecast of all Products </span> </br>
+  <button onclick="window.open('https://www.linkedin.com/learning/', '_blank')"></div>
+    <img src="LinkedIn.jpg" class="icon" alt="icon29" /> LinkedIn Learning
+  </button> <span>Linked In Learning, Sign in with TFS Mail ID </span> </br>
+  <button onclick="window.open('https://thermofisher.sharepoint.com/sites/MCP_DirectTeam/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMCP%5FDirectTeam%2FShared%20Documents%2FGeneral%2FMCP%20Projects%2FAsheville%2FProject%20folders%2F020%5FVAVE%20Finance%20Funnel&viewid=da7eeb84%2D7444%2D475f%2Daf52%2D881907db9350&csf=1&web=1&e=V9SahM&ovuser=b67d722d%2Daa8a%2D4777%2Da169%2Debeb7a6a3b67%2Chima%2Edattada%40thermofisher%2Ecom&OR=Teams%2DHL&CT=1756976157008&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA4MTUwMDcxNyIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&CID=d661c2a1%2D0095%2D9000%2Dfa24%2Dacece7d47580&cidOR=SPO&FolderCTID=0x012000D2E9084581735F448A2EB4F2167BEBD6', '_blank')"></div>
+    <img src="Pulsing.jpg" class="icon" alt="icon29" /> MCP AVL Finance Funnel
+  </button> <span>MCP AVL All projects Finance templates & Approvals </span> </br>
+    <button onclick="window.open('https://thermofisher.sharepoint.com/sites/MCP_DirectTeam/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMCP%5FDirectTeam%2FShared%20Documents%2FGeneral%2FMCP%20Projects%2FAsheville%2FProject%20folders%2F030%5FVAVE%20Onepages&viewid=da7eeb84%2D7444%2D475f%2Daf52%2D881907db9350&csf=1&web=1&e=V9SahM&ovuser=b67d722d%2Daa8a%2D4777%2Da169%2Debeb7a6a3b67%2Chima%2Edattada%40thermofisher%2Ecom&OR=Teams%2DHL&CT=1756976157008&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA4MTUwMDcxNyIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&CID=d661c2a1%2D0095%2D9000%2Dfa24%2Dacece7d47580&cidOR=SPO&FolderCTID=0x012000D2E9084581735F448A2EB4F2167BEBD6', '_blank')"></div>
+    <img src="Pulsing.jpg" class="icon" alt="icon29" /> MCP AVL Projects One pagers
+  </button> <span>MCP AVL all projects one pagers </span> </br>
+
+
+</div>
+
+</body>
+</html>
